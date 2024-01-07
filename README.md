@@ -8,9 +8,9 @@
 - [Getting_Started](#GettingStarted)
   - [Requirements](#Requirements)
   - [Installation](#Installation)
-- [Directory_Structure](#Directory_Structure)
+- [Directory Structure](#Directory-Structure)
 - [Deployment](#Deployment)
-- [Frameworks_Used](#Frameworks_Used)
+- [Frameworks Used](#Frameworks-Used)
 - [Author](#Author)
 
 
@@ -36,7 +36,7 @@ cd NDHU_Digital_Learning_Technology_2023
 pip install -r requirements.txt
 ```
 
-### Directory_Structure
+### Directory Structure
 
 ```
 filetree 
@@ -53,7 +53,7 @@ filetree
 1. Execute `Mall_Customers.ipynb` on vscode or Jupyter
 
 
-### Frameworks_Used
+### Frameworks Used
 
 - [Pandas](https://pandas.pydata.org/)
 - [NumPy](https://numpy.org/)
