@@ -29,28 +29,34 @@
 git clone https://github.com/appleiphonedddd/NDHU_Digital_Learning_Technology_2023.git
 cd NDHU_Digital_Learning_Technology_2023
 ```
-
-2. Install Python package
+2. Install Conda
 
 ```sh
-pip install -r requirements.txt
+
+chmod 777 Install_miniconda.sh
+./Install_miniconda.sh
 ```
 
 ### Directory Structure
 
 ```
 filetree 
+├── env.yml
 ├── Mall_Customers.csv
 ├── Mall_Customers.ipynb
 ├── my.csv
-├── README.md
-└── requirements.txt
-
+└── README.m
 ```
 
 ### Deployment
 
-1. Execute `Mall_Customers.ipynb` on vscode or Jupyter
+1. Build the Conda environment and install libraries
+
+```sh
+conda env create -f env.yml
+```
+
+2. Execute `Mall_Customers.ipynb` on vscode or Jupyter
 
 
 ### Frameworks Used
